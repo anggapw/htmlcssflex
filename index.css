@@ -1,0 +1,50 @@
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.container {
+  margin: 20px 400px;
+}
+
+.container .title h1 {
+  font-weight: 900;
+  font-size: 40px;
+  color: #0e0000;
+}
+
+.container .title mark {
+  background: rgba(253, 16, 21, 0.1);
+  color: #fd1015;
+  padding: 0px 10px;
+}
+
+.content h4 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #4b4b4b;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 300px;
+}
+
+.card .card-img img {
+  height: 210px;
+  border-radius: 4px;
+}
+
+.card-content p {
+  color: #4b4b4b;
+}
+
+.card-link i {
+  margin-right: 10px;
+  background: red;
+  padding: 10px;
+  border-radius: 50%;
+}
